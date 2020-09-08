@@ -5,7 +5,6 @@
   "author": "Vikram kadam",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -24,7 +23,6 @@
     "css-loader": "0.28.4",
     "express": "4.15.4",
     "extract-text-webpack-plugin": "3.0.0",
-    "jest": "20.0.4",
     "live-server": "^1.2.1",
     "moment": "2.18.1",
     "node-sass": "4.12.0",
@@ -40,10 +38,11 @@
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "uuid": "3.1.0",
-    "webpack": "3.1.0",
-    "webpack-dev-server": "2.5.1"
+    "webpack": "3.1.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "jest": "20.0.4",
+    "webpack-dev-server": "2.5.1" 
   }
 }
